@@ -3,6 +3,7 @@
   <head>
     <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/master/aframe/build/aframe-ar.js"></script>
+    <script src="https://unpkg.com/aframe-extras@7.2.0/dist/aframe-extras.min.js"></script>
   </head>
 
   <body style="margin: 0; overflow: hidden;">
@@ -12,21 +13,21 @@
 
       <!-- Stop 1 -->
       <a-text
-        value="Welcome to LHS!"
+        value="vr room"
         scale="12 12 12"
         color="yellow"
-        gps-entity-place="latitude:00.00000; longitude: 00.00000;"
+        gps-entity-place="latitude:39.27949; longitude: -84.27591;"
       ></a-text>
       <a-assets>
 <a-asset-item id="myAnimation" src="1.glb"
-  gps-entity-place="latitude:00.00000; longitude: 00.00000;"><a-asset-item>
+  gps-entity-place="latitude:39.27957; longitude: -84.27481;"><a-asset-item>
 
   </a-assets><a-entity gltf-model="#myAnimation" animation-mixer><a-entity>
   <a-text
-        value="Welcome to LHS!"
+        value="the gym"
         scale="12 12 12"
         color="yellow"
-        gps-entity-place="latitude:00.00000; longitude: 00.00000;"
+        gps-entity-place="latitude:39.27973; longitude: -84.27502;"
       ></a-text>
     </a-scene>
   </body>
